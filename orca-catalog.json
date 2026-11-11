@@ -3,5 +3,39 @@
   "catalogVersion": 2,
   "name": "My Orca Plugins",
   "owner": "reneruck-ethyca",
-  "plugins": []
+  "plugins": [
+    {
+      "id": "reneruck-ethyca.ember-theme",
+      "source": {
+        "kind": "git",
+        "url": "https://github.com/reneruck-ethyca/my-orca-plugins.git",
+        "ref": "main",
+        "path": "plugins/ember-theme"
+      },
+      "description": "Warm light and dark app themes, ported from T3 Code's Ember palette.",
+      "categories": [
+        "themes"
+      ],
+      "releases": [
+        {
+          "version": "0.1.0",
+          "commit": "982432963d673d574e176552b492ec49e8fa9873",
+          "contentHash": "2d2f0c85a12b6c7a01dfd2bb852b5e245dc53335ac77fd606c35b11c12e21993",
+          "execution": "data",
+          "minimumOrca": "1.4.246",
+          "name": "Ember",
+          "contributes": [
+            {
+              "kind": "themes",
+              "name": "Ember Light"
+            },
+            {
+              "kind": "themes",
+              "name": "Ember Dark"
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }
