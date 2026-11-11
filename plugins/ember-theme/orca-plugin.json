@@ -1,0 +1,17 @@
+{
+  "manifestVersion": 2,
+  "id": "ember-theme",
+  "name": "Ember",
+  "version": "0.1.0",
+  "description": "Warm light and dark app themes, ported from T3 Code's Ember palette.",
+  "engines": {
+    "orca": ">=1.4.246"
+  },
+  "execution": "data",
+  "contributes": {
+    "themes": [
+      { "id": "ember-light", "title": "Ember Light", "path": "themes/light.json" },
+      { "id": "ember-dark", "title": "Ember Dark", "path": "themes/dark.json" }
+    ]
+  }
+}
